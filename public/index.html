@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="script.js"></script>
+
+    <title>Admin Login</title> 
+</head>
+<body>
+  <form action="http://localhost:3001/login" method="post" id="loginForm">
+
+    <div class="imgcontainer">
+      <img src="Images/Avatar.jpg" alt="Avatar" class="avatar">
+      <h1>Admin Login</h1>
+    </div>
+  
+    <div class="container">
+      <label for="username"><b>Username</b></label>
+      <input type="text" id="username" placeholder="Enter Username" name="username" required autocomplete="username">
+      
+
+      <label for="password"><b>Password</b></label>
+      <input type="password" id="password" placeholder="Enter Password" name="password" required autocomplete="current-password">
+  
+      <button type="submit" class="button">Login</button>
+
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+</form>
+  </body>
