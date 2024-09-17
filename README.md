@@ -6,4 +6,5 @@ It is implemented in vanilla html,css and javascript which is then served using 
 <img width="941" alt="wePark" src="wepark.png">
 
 LPR system : https://github.com/sairojp/wePark-LPR
+
 Backend app : https://github.com/sairojp/wePark-BE
